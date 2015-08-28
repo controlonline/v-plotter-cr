@@ -10,6 +10,7 @@
 //compile with gcc v-plotter.c -I/usr/local/include -L/usr/local/lib -lwiringPi -lm -o v-plotter
 //For details see:
 //http://www.HomoFaciens.de/technics-machines-v-plotter_en_navion.htm
+// Modifificada per http://controlonline.net perque funcioni amb l'easyDrive, amb 800 passos per revolució, te mes presició.
 
 #include <stdio.h>
 #include <termios.h>
